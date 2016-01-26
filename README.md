@@ -1,10 +1,14 @@
-# Intro to SCSS
+# All devices setup code samples
 
-Since we are beginning to make larger websites, it makes sense to break up our projects into parts and extend functionality and reusability with SASS!
+Code samples for the all devices setup tutorial.
 
-## Links
+### [☛ Tutorials & videos](http://learn-the-web.algonquindesign.ca/topics/all-devices-setup/)
 
-- [Get Started with SASS](http://sass-lang.com/guide)
-- [SASS Extended Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
-- [How to Structure a SASS Project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
+---
 
+## License & Copyright
+
+© Algonquin College Graphic Design — <http://algonquindesign.ca/>.<br>
+All code licensed under the [Unlicense](UNLICENSE).<br>
+All text, imagery, design, tutorials & videos licensed under the [CC BY-NC-SA License](http://creativecommons.org/licenses/by-nc-sa/4.0/).<br>
+Unless otherwise noted.
