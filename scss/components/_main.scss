@@ -1,35 +1,104 @@
-html{
-	font-family: $helvetica;
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font-family: $times;
 }
 
-.primary-btn{
-	@include button($primary, $white, #04146F);
+h1 {
+	margin-left:45%;
+	margin-top:10%;
 }
-.secondary-btn{
-	@include button($white, $blue, #000000);
+
+body {
+	color:$pink;
+	margin-top:5rem;
 }
-.border{
-	border: 1px solid #ccc;
-	p{
-		color: red;
+.btn {
+	color:$pink;
+	background-color:$secondary;
+	padding: 3em 1em;
+	margin-left:47%;
+	display: inline-block;
+	text-decoration:none;
+	margin-bottom:8rem;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus{
+	animation-name: rotate;
+	animation-duration: 1s;
+	background-color: $dark-pink;
+}
+@keyframes rotate {
+	from {
+		transform:rotate( 0deg );
+		-moz-transform:    rotate( 0deg );  /* Firefox*/
+		-webkit-transform: rotate( 0deg );  /* Chrome,Safari,pera*/
+		-o-transform:      rotate( 0deg );  /* oldOpera*/
+		-ms-transform:     rotate( 0deg );  /* IE*/
+		color:$white;
+	}
+	to {
+		transform:rotate( 360deg );
+		-moz-transform:    rotate( 360deg );  /* Firefox*/
+		-webkit-transform: rotate( 360deg );  /* Chrome,Safari,pera*/
+		-o-transform:      rotate( 360deg );  /* oldOpera*/
+		-ms-transform:     rotate( 360deg );  /* IE*/
+		color:$pink;
 	}
 }
+	.btn2 {
+	color:$pink;
+	animation-name: slidein;
+	display: block;
+	text-decoration:none;
+	animation-duration: 1s;
+	margin-left:15%;
+}
 
-a{
-	text-decoration: none;
-	&:hover{
-		text-decoration: $grey;
+@keyframes slidein {
+	from {
+		margin-left:100%;
+	}
+	to {
+	margin-left:15%;
 	}
 }
-
-//Extend
-ul{
-	@extend .border;
+.btn3 {
+	color:$pink;
+	animation-name: slidein2;
+	display: block;
+	text-decoration:none;
+	animation-duration: 1s;
+	margin-left:47%;
 }
 
-div{
-	background: $grey;
-	&:border{
-color: $blue;
+@keyframes slidein2 {
+	from {
+		margin-left:100%;
+	}
+	to {
+	margin-left:47%;
+	}
+}
+.btn4 {
+	color:$pink;
+	animation-name: slidein3;
+	display: block;
+	text-decoration:none;
+	animation-duration: 1s;
+	margin-left:90%;
+}
+
+@keyframes slidein3 {
+	from {
+		margin-left:100%;
+	}
+	to {
+	margin-left:90%;
 	}
 }
