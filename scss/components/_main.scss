@@ -17,22 +17,11 @@ body {
 	margin-top:5rem;
 }
 .btn {
-	color:$pink;
-	background-color:$secondary;
-	padding: 3em 1em;
-	margin-left:47%;
-	display: inline-block;
-	text-decoration:none;
-	margin-bottom:8rem;
+		@include button;
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus{
-	animation-name: rotate;
-	animation-duration: 1s;
-	background-color: $dark-pink;
-}
+
+	
 @keyframes rotate {
 	from {
 		transform:rotate( 0deg );

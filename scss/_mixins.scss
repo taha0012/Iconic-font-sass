@@ -12,7 +12,9 @@
 	
 	*/
 
-@mixin button($background, $font, $hover){
+
+}
+@mixin button{
 	color:$pink;
 	background-color:$secondary;
 	padding: 3em 1em;
@@ -20,6 +22,10 @@
 	display: inline-block;
 	text-decoration:none;
 	margin-bottom:8rem;
+		&:hover{
+			animation-name: rotate;
+			animation-duration: 1s;
+			background-color: $dark-pink;
+	}
 }
-
 	

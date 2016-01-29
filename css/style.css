@@ -27,7 +27,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: Times, Times new roman, serif;
+  font-family: Times, serif;
 }
 
 h1 {
@@ -50,9 +50,7 @@ body {
   margin-bottom: 8rem;
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus {
+.btn:hover {
   animation-name: rotate;
   animation-duration: 1s;
   background-color: #ff2428;
