@@ -53,7 +53,7 @@ body {
 .btn:hover {
   animation-name: rotate;
   animation-duration: 1s;
-  background-color: #ff2428;
+  background-color: #ff575a;
 }
 
 @keyframes rotate {
@@ -89,6 +89,7 @@ body {
   display: block;
   text-decoration: none;
   animation-duration: 1s;
+  animation-name: slidein;
   margin-left: 15%;
 }
 
@@ -103,10 +104,11 @@ body {
 
 .btn3 {
   color: #FF8A8C;
-  animation-name: slidein2;
+  animation-name: slidein;
   display: block;
   text-decoration: none;
   animation-duration: 1s;
+  animation-name: slidein2;
   margin-left: 47%;
 }
 
@@ -121,10 +123,11 @@ body {
 
 .btn4 {
   color: #FF8A8C;
-  animation-name: slidein3;
+  animation-name: slidein;
   display: block;
   text-decoration: none;
   animation-duration: 1s;
+  animation-name: slidein3;
   margin-left: 90%;
 }
 

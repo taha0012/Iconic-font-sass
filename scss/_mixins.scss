@@ -13,7 +13,6 @@
 	*/
 
 
-}
 @mixin button{
 	color:$pink;
 	background-color:$secondary;
@@ -29,3 +28,10 @@
 	}
 }
 	
+@mixin button2{
+	color:$pink;
+	animation-name: slidein;
+	display: block;
+	text-decoration:none;
+	animation-duration: 1s;
+}

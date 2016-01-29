@@ -41,12 +41,9 @@ body {
 	}
 }
 	.btn2 {
-	color:$pink;
-	animation-name: slidein;
-	display: block;
-	text-decoration:none;
-	animation-duration: 1s;
-	margin-left:15%;
+		@include button2;
+		animation-name: slidein;
+		margin-left:15%;
 }
 
 @keyframes slidein {
@@ -58,11 +55,8 @@ body {
 	}
 }
 .btn3 {
-	color:$pink;
+	@include button2;
 	animation-name: slidein2;
-	display: block;
-	text-decoration:none;
-	animation-duration: 1s;
 	margin-left:47%;
 }
 
@@ -75,11 +69,8 @@ body {
 	}
 }
 .btn4 {
-	color:$pink;
+	@include button2;
 	animation-name: slidein3;
-	display: block;
-	text-decoration:none;
-	animation-duration: 1s;
 	margin-left:90%;
 }
 
